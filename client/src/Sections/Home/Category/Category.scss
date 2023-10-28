@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap");
 
 .shop_category {
-  margin: 30px 0;
+  margin-top: 0px;
   @include md {
     margin: 0px auto;
     padding: 30px 10px;
-    // background-color: orange;
   }
   .categories {
     display: flex;
@@ -14,7 +13,6 @@
     flex-direction: row;
     gap: 1px;
     padding: 0 8px;
-    // background-color: rgba($color: #000000, $alpha: 0.1);
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgba($color: #000000, $alpha: 0.05);
@@ -23,16 +21,12 @@
       padding: 0 80px;
       //   margin: 0 10px;
     }
-    // background-color: red;
     .category {
       margin: 10px 0;
       width: calc(20% - 1px);
       cursor: pointer;
-      //   background-color: green;
       @include md {
         width: calc(20% - 20px);
-        // background-color: rgb(247, 247, 247);
-        // margin: 10px 0;
       }
       .category_image {
         // background-color: black;
